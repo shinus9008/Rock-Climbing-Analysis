@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>35a29175-f93f-4e01-8697-e5178fe5fe7d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>MediaPipe\MediaPipePose.py</StartupFile>
+    <StartupFile>MediaPipeDetection.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,11 +21,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="MediaPipe\MediaPipePose.py" />
-    <Compile Include="PoseEstimation.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="MediaPipe\" />
+    <Compile Include="MediaPipeDetection.py" />
+    <Compile Include="MediaPipePose.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
